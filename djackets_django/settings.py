@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STRIPE_SECRET_KEY = 'sk_test_51NfeSzCKTN7zMhcdaaQ8Rp7cTgUr4xZahWw3t0wzSPaClG03GBf87sCu3Ogl95UuDrGYxnAL6rVCv0j8jjcd5gy400DhwUvZ0e'
 
 # Application definition
 
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     'djoser',
 
     'product',
+    'order',
 ]
 
 CORS_ALLOWED_ORIGINS = [
